@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    background-color: #8b8bf1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: black;
+    text-shadow: 1px 1px 3px black;
+}
+.rabo {
+    font-size: 10pt;
+}
+header{
+    font-size: 15pt;
+    color: white;
+    text-align: center;
+
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    font-size: 15pt;
+    color: black;
+    width: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+}
+#msg {
+    color: black;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+footer{
+    margin-top: 160px;
+    font-size: 10pt;
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+}

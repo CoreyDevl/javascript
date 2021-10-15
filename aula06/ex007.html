@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>somando numeros</title>
+    <style>
+        body {
+            background-color: aqua;
+            font: 3em;
+        }
+        input {
+            font-size: 1.5em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div{
+            font-size: 2em;
+            font-family: Arial, Helvetica, sans-serif;
+        
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>seu cú é o primeiro mundo</h1>
+        <input type="number" name="satancu" id="666"> +
+        <input type="number" name="satanlixo" id="667">
+        <input type="button" value="somar com seu cú" onclick="autofuzilamento()">
+     
+        <div id="inferno">
+            Olha que Lixo!
+        </div>
+    </main>
+
+    <script>
+function autofuzilamento() {
+    var satancu = window.document.getElementById('666')
+    var satanlixo = window.document.getElementById('667')
+    var inferno = window.document.getElementById('inferno')
+    var cusujo = Number(satancu.value)
+    var satanlixo = Number(satanlixo.value)
+    var fuzilamento = cusujo + satanlixo
+    inferno.innerHTML = `Você levou ${cusujo} tiros e ${satanlixo} pedradas bem no meio da cara, você perdeu ${fuzilamento} de HP`
+    
+}
+
+
+    </script>
+</body>
+</html>

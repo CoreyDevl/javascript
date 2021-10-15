@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+/*        
+//vamos devagar em forma de comentários escrever a origem de uma arrow
+//criamo a const array
+//depois criamos a nova const arrayMod, com uma função de exemplo 'map()' que vai apenas multiplicar por 2 o que estiver no array
+// entao vamos dizer ao arraymod que ele recebe = array.map() 
+// entao vamos criar a nova funçao de map() logo abaixo 
+//  que vai se chamar 'mapear(value)' o value será cada item no array
+//            function mapear(value){
+            return value * 2
+             }
+
+depois disso  a funçao map()  receberá esses parametros de mapear():
+            const array = [1, 2, 3] 
+            const arrayMod = array.map(mapear)   <<<<<<<----- FUNC MAP
+             console.log(arrayMod);
+
+            function mapear(value){    <<<<<---- FUNC MAPEAR
+            return value * 2
+             }    
+
+ pra simplificar então a função MAPEAR,  ela vai ser arranjada dentro() de MAP:   
+    const array = [1, 2, 3] 
+    const arrayMod = array.map(function mapear(value))   <<<<<<<----- FUNC MAP
+    return value * 2
+     }            
+console.log(arrayMod);
+
+Como tudo isso está se passando dentro da mesma funçao MAP chegamos ao formato abaixo
+             */
+
+        const array = [1, 2, 3] //CRIAMOS UM ARRAY SIMPLES PRA EXPLICAR ARROW FUNCT.
+
+        const arrayMod = array.map (value  => value * 2)
+        console.log(arrayMod); 
+         
+    </script>
+</body>
+</html>
